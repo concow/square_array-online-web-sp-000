@@ -5,13 +5,3 @@ def square_array(array)
   }
   return squared_array                #explicitly return new array. if not, it returns original array.
 end
-
-
-
-#  squared_array = []
-#  array.each { |number|
-#    number = number ** 2          #square numbers. set equal to number variable and update
-#    squared_array << number      # add new number to new array we initialized above
-#  }
-#  return squared_array
-#end
