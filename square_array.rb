@@ -1,4 +1,18 @@
 def square_array(array)
+  squared_array = []
+  array.each { |element|
+    squared_array << element ** 2
+  }
+  return squared_array
+end
+
+
+
+
+
+
+
+
   squared_array = []                #initialize new array (create)   We use below
   array.each { |number|            #set pipes to number variable. Do calculations below
     number = number ** 2          #square numbers. set equal to number variable and update
